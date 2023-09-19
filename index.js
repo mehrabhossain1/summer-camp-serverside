@@ -4,8 +4,6 @@ const app = express();
 const cors = require("cors");
 const port = process.env.PORT || 5000;
 
-// hadi-school-camp
-// 2ug48Xh2PC8SGpDB
 // middleware
 app.use(cors());
 app.use(express.json());
